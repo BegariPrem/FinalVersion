@@ -1,0 +1,74 @@
+#navHomeBar{
+	border-radius:12px;
+	 position: fixed;
+    z-index: 9999;
+    width: 100%;
+	box-shadow: 10px 10px 5px #888888;
+	 
+	 
+}
+body{
+	background:url('/MiniProject/css/library.jpg');
+	background-size:cover;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:black;
+	margin-top:0px;
+	padding:0px;
+	}
+	li{
+	color:white;
+	}
+	img{
+	    vertical-align: middle;
+	    height: 82px;
+	    opacity:0.7;
+	}
+	.ReturnBookDisplay{
+	/*width:48%;
+	margin-left:2%;
+	height:250px;
+	float:left;
+	margin-top:1%;
+	border-radius:15px;*/
+	background:rgba(242,242,242,0.5);
+	margin-top:5px;
+	padding:2% 3%;
+	border-radius:15px;
+}
+tr td{
+	padding:5px;
+}
+.issueBookDisplay{
+	/*width:47%;
+	margin-right:2%;
+	height:250px;
+	float:right;
+	margin-top:1%;*/
+	margin-left:1%;
+	border-radius:15px;
+	background:rgba(242,242,242,0.5);
+	padding:2% 3%;
+}
+.addBookDisplay{
+	
+	background: rgba(242,242,242,0.5);
+	padding:2% 3%;
+	border-radius:15px;
+	 
+}
+.addUserDisplay{
+margin-left:1%;
+	border-radius:15px;
+	background: rgba(242,242,242,0.5);
+	padding:2% 3%;
+	 
+	
+}
+#addUserResult{
+	margin-top:5px;
+	color:green;
+}
+#addBookResult{
+	margin-top:5px;
+	color:green;
+}
